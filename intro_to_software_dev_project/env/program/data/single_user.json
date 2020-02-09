@@ -3,16 +3,16 @@
         "email": "",
         "hard_skills": {
             ".net": 6,
-            "c#": 10,
-            "html": 6,
-            "python": 4
+            "HTML": 5,
+            "Java": 6,
+            "Python": 8
         },
         "password": "",
         "soft_skills": {
-            "analytical": 6,
-            "leadership": 10,
-            "problem-solving": 5
+            "analytical": 7,
+            "communication": 6,
+            "problem-solving": 10
         },
-        "username": "chris"
+        "username": "helen"
     }
 ]

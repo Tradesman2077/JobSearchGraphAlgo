@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import json
 import operator
 
-with open('data/single_user.json', 'r') as infile:
+with open('data/test_user.json', 'r') as infile:
     users_array = json.load(infile)
 
 
@@ -22,10 +22,10 @@ def user_skill_finder(users_array):
 
 
 def test(users_array):
-	#tests single_user.json
+	#tests test_user.json
 
     #arrange
-	test_check = ['communication', 'problem solving']
+	test_check = ['communication', 'problem-solving']
 
     #assert
 	if user_skill_finder(users_array)==test_check:
@@ -33,5 +33,6 @@ def test(users_array):
 		print('Pass')
 	else:
 		print('Fail')
+
 
 test(users_array)
