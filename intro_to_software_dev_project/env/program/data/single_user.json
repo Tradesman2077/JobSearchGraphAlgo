@@ -1,0 +1,18 @@
+[
+    {
+        "email": "",
+        "hard_skills": {
+            ".net": 6,
+            "c#": 10,
+            "html": 6,
+            "python": 4
+        },
+        "password": "",
+        "soft_skills": {
+            "analytical": 6,
+            "leadership": 10,
+            "problem-solving": 5
+        },
+        "username": "chris"
+    }
+]
